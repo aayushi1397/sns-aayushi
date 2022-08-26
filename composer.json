@@ -30,14 +30,15 @@
       "Mitchdav\\SNS\\": "src/"
     }
   },
-  "require": {
-    "aws/aws-php-sns-message-validator": "^1.7.0",
-    "aws/aws-sdk-php": "^3.54",
-    "illuminate/broadcasting": "^8.83.14",
-    "illuminate/console": "^8.83.14",
-    "illuminate/notifications": "^8.83.14",
-    "illuminate/routing": "^8.83.14",
-    "illuminate/support": "^8.83.14"
+  
+  "requires": {
+    "aws/aws-php-sns-message-validator": "^1.2",
+    "aws/aws-sdk-php": "~3.0",
+    "illuminate/broadcasting": "5.6.*",
+    "illuminate/console": "5.6.*",
+    "illuminate/notifications": "5.6.*",
+    "illuminate/routing": "7.2.*",
+    "illuminate/support": "5.6.*"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.0"
