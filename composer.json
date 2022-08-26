@@ -35,7 +35,7 @@
     "aws/aws-sdk-php": "^3.54",
     "illuminate/broadcasting": "^8.83.14",
     "illuminate/console": "^8.83.14",
-    "illuminate/notifications": "^8.83.14",
+    "illuminate/notifications": "^7.2",
     "illuminate/routing": "^7.2",
     "illuminate/support": "^8.83.14"
   },
