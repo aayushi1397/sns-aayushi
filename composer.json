@@ -33,7 +33,7 @@
   "require": {
     "aws/aws-php-sns-message-validator": "^1.7.0",
     "aws/aws-sdk-php": "^3.54",
-    "illuminate/broadcasting": "7.x-dev",
+    "illuminate/broadcasting": "^7.20.0",
     "illuminate/console": "^7.2",
     "illuminate/notifications": "^7.2",
     "illuminate/routing": "^7.2",

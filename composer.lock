@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4afc297eb27d150a0b5dfe3ba8335da",
+    "content-hash": "b0c9bf2081d82bd4f9b454aa5e3eea03",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -784,7 +784,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "7.x-dev",
+            "version": "v7.30.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -6353,9 +6353,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "illuminate/broadcasting": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
