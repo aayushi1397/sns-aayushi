@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7d629c8813e2b0b88af9c22788788dd",
+    "content-hash": "f4afc297eb27d150a0b5dfe3ba8335da",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -784,16 +784,16 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v7.2.0",
+            "version": "7.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
-                "reference": "de316f127f878df59d1f993e89e0c6295361fb2f"
+                "reference": "b30bf4ff2b020a98aca537877a68fabecfa3a8ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/broadcasting/zipball/de316f127f878df59d1f993e89e0c6295361fb2f",
-                "reference": "de316f127f878df59d1f993e89e0c6295361fb2f",
+                "url": "https://api.github.com/repos/illuminate/broadcasting/zipball/b30bf4ff2b020a98aca537877a68fabecfa3a8ab",
+                "reference": "b30bf4ff2b020a98aca537877a68fabecfa3a8ab",
                 "shasum": ""
             },
             "require": {
@@ -802,7 +802,7 @@
                 "illuminate/contracts": "^7.0",
                 "illuminate/queue": "^7.0",
                 "illuminate/support": "^7.0",
-                "php": "^7.2.5",
+                "php": "^7.2.5|^8.0",
                 "psr/log": "^1.0"
             },
             "suggest": {
@@ -831,7 +831,7 @@
             ],
             "description": "The Illuminate Broadcasting package.",
             "homepage": "https://laravel.com",
-            "time": "2020-03-06T01:34:22+00:00"
+            "time": "2020-11-21T14:36:22+00:00"
         },
         {
             "name": "illuminate/bus",
@@ -6353,7 +6353,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "illuminate/broadcasting": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
